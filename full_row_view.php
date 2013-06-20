@@ -14,7 +14,7 @@
 // Version 0.1:  Initial release (Tested on 0.20.4)
 //
 // Installation:
-// 1)  Copy script to plugins folder as fullrowview.php
+// 1)  Copy script to plugins folder as full_row_view.php
 
 $tab['row']['full_row_view'] = 'Full Row View';
 $tabhandler['row']['full_row_view'] = 'FullRowView';
