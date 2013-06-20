@@ -1,5 +1,5 @@
-racktables-suff
-===============
+racktables-stuff
+================
 
 A small plugin for Racktables.org v0.20.4 only tested by me.
 
