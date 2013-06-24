@@ -11,7 +11,8 @@
 // Currently five racks will be grouped in a row.
 //
 // History
-// Version 0.1:  Initial release (Tested on 0.20.4)
+// Version 0.1: Initial release (Tested on 0.20.4)
+//         0.2: Removed call of markupObjectProblems(), function was removed in 0.20.5
 //
 // Installation:
 // 1)  Copy script to plugins folder as full_row_view.php
@@ -68,9 +69,6 @@ function FullRowView()
     echo '</td></tr></table>';
     // echo "<br>foo";
 }
-?>
-
-<?
 
 // This is form interface.php: renderRack
 // This function renders rack as HTML table.
@@ -81,7 +79,7 @@ function renderReducedRack ($rack_id, $hl_obj_id = 0)
 	markAllSpans ($rackData);
 	if ($hl_obj_id > 0)
 		highlightObject ($rackData, $hl_obj_id);
-	markupObjectProblems ($rackData);
+	// markupObjectProblems ($rackData); // Function removed in 0.20.5
 	$prev_id = getPrevIDforRack ($rackData['row_id'], $rack_id);
 	$next_id = getNextIDforRack ($rackData['row_id'], $rack_id);
 	echo "<center><table border=0><tr valign=middle>";
