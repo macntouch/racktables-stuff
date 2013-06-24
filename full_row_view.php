@@ -1,7 +1,7 @@
 <?php
 //
 // Render a full row of racks view with server names
-// Version 0.1
+// Version 0.2
 //
 // Written by Philipp Grau <phgrau@zedat.fu-berlin.de>
 // 
@@ -22,7 +22,7 @@ $tabhandler['row']['full_row_view'] = 'FullRowView';
 $ophandler['row']['full_row_view']['preparePrint'] ='preparePrint';
 
 // Set variables
-$frvVersion = "0.1";
+$frvVersion = "0.2";
 
 function preparePrint()
 {
