@@ -11,3 +11,7 @@ A small plugin for Racktables.org v0.20.7 only tested by me.
 * open a rack row in the racktables web frontend, there should be a tab "Full Row View", enjoy.
 
 Feedback is welcome!
+
+# Preview
+
+![Preview hosted on github](https://raw.githubusercontent.com/phgrau/racktables-stuff/master/full_row_view.png)
