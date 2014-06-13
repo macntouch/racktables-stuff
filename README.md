@@ -1,7 +1,9 @@
 racktables-stuff
 ================
 
-A small plugin for Racktables.org v0.20.7 only tested by me.
+A small plugin for Racktables.org, only tested by me.
+
+Tested versions 0.20.7, 0.20.8
 
 # Installation
 
